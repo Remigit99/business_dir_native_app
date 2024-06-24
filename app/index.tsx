@@ -7,9 +7,15 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "crimson"
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text
+      style={{color: "white",
+        fontSize: 40,
+        fontFamily: "montserrat-bold"
+      }}
+      >A Business Directory App For Everyone</Text>
     </View>
   );
 }
