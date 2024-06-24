@@ -12,8 +12,12 @@ useFonts({
 })
 
   return (
-    <Stack>
-      <Stack.Screen name="index" />
+    <Stack
+    // screenOptions={{headerShown: false}}
+    >
+      <Stack.Screen
+      // options={{headerShown: false}}
+      name="(tabs)" />
     </Stack>
   );
 }
