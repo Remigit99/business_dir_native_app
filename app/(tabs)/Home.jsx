@@ -1,32 +1,50 @@
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native'
+import { Image, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
 const Home = () => {
   return (
     <SafeAreaView> 
 
+      <ScrollView>
+
+        
     <View 
     style={{
         flex:1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "red"
+        paddingTop: 32,
+        paddingHorizontal: 8
     }}
     >
+
+      <View style={{
+        display: "flex",
+        flexDirection: "row",
+        gap: 18
+      }}>
+        <View>
+          <Image source={require("../../assets/images/Remi_2.jpg")}
+          width={48}
+          height={48}
+          borderRadius={100}
+          />
+        </View>
+        <View></View>
+      </View>
       <Text 
       style={{
-        fontSize: 40
+        fontSize: 16
       }}
       >Home
       Lorem ipsum dolor sit amet.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur harum, sunt
-       doloribus vel tempora maiores eligendi numquam blanditiis fugiat error quibusdam,
-        deleniti non totam nihil hic dolorum, voluptatum sed dolor commodi repellat nobis
-         iusto nostrum nesciunt! Repellendus tenetur
-       accusantium deleniti expedita, repudiandae sed, esse ducimus voluptatibus perferendis
-        eum architecto nisi!
+     
       </Text>
     </View>
+
+
+      </ScrollView>
+
     </SafeAreaView>
 
   )

@@ -63,7 +63,7 @@ useFonts({
 
   return (
     <Stack
-    // screenOptions={{headerShown: false}}
+    screenOptions={{headerShown: false}}
     >
       <Stack.Screen
       // options={{headerShown: false}}
