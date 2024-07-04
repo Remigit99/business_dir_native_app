@@ -1,4 +1,4 @@
-import { Image, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native'
+import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import HomeHeader from '../../components/Home/HomeHeader'
 
@@ -12,8 +12,6 @@ const Home = () => {
     <View 
     style={{
         flex:1,
-        justifyContent: "center",
-        alignItems: "center",
         paddingTop: 32,
         paddingHorizontal: 8
     }}
