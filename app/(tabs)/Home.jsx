@@ -1,5 +1,6 @@
 import { Image, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import HomeHeader from '../../components/Home/HomeHeader'
 
 const Home = () => {
   return (
@@ -18,28 +19,13 @@ const Home = () => {
     }}
     >
 
-      <View style={{
-        display: "flex",
-        flexDirection: "row",
-        gap: 18
-      }}>
-        <View>
-          <Image source={require("../../assets/images/Remi_2.jpg")}
-          width={48}
-          height={48}
-          borderRadius={100}
-          />
-        </View>
-        <View></View>
-      </View>
-      <Text 
-      style={{
-        fontSize: 16
-      }}
-      >Home
-      Lorem ipsum dolor sit amet.
+     {/* Home Header */}
+
+     <HomeHeader/>
+      
+      
      
-      </Text>
+      
     </View>
 
 
